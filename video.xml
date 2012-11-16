@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rxplayer debug="false">
+	<module id="1" title="Module 1" status="Active" completed="false" access="1">
+		<section id="289" type="video" title="Module 1 Section 1" url="video.mp4">
+			<plugins>
+				<plugin after="5" url="qa1" plugfile="QA.swf"/>
+				<plugin after="9" url="qa2" plugfile="QA.swf"/>
+				<plugin after="26" url="qa3" plugfile="QA.swf"/>
+			</plugins>
+			<chapter id="3954" time="0" type="picture" url="Slides/Slide1.jpg" title="Slides/Slide1.jpg"/>
+			<chapter id="3955" time="5" type="picture" url="Slides/Slide2.jpg" title="Slides/Slide2.jpg"/>
+			<chapter id="3956" time="10" type="picture" url="Slides/Slide3.jpg" title="Slides/Slide3.jpg"/>
+		</section>
+        <section id="290" type="video" title="Module 1 Section 2" url="video.mp4">
+            
+            <chapter id="3954" time="0" type="picture" url="Slides/Slide4.jpg" title="Slides/Slide4.jpg"/>
+            <chapter id="3955" time="5" type="picture" url="Slides/Slide5.jpg" title="Slides/Slide5.jpg"/>
+            <chapter id="3956" time="10" type="picture" url="Slides/Slide6.jpg" title="Slides/Slide6.jpg"/>
+        </section>
+	</module>
+</rxplayer>
